@@ -1,10 +1,44 @@
+/*Personal info css*/
+.info {
+  width: 320px;
+  background-color: white;
+  margin: 60px auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.github-profile {
+  margin-top: 20px;
+}
+
+.github-profile a {
+    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: #333;
+}
+
+.github-profile i {
+  font-size: 24px; 
+ 
+}
+
+
+/*Personal info css*/
+
+/*------------------------------------------------ASSIGNMENT START FROM HERE----------------------------------------------------*/
+
 body {
   background-color: black;
   font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
 }
 
 .food-card-bg {
-  margin-left: 35%;
+  margin:100px auto;
   width: 400px;
   padding: 15px;
   border-radius: 15px;
@@ -176,8 +210,11 @@ h1 {
   margin-top: 20px;
 }
 
-/*LinkedIn Profile*/
 
+
+
+
+/*LinkedIn Profile*/
 .linkedin-profile {
   background-color: white;
   margin: 400px auto;
