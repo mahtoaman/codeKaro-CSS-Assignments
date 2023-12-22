@@ -1,0 +1,219 @@
+body {
+  background-color: black;
+  font-family: "Google Sans Text", "Google Sans", Roboto, Arial, sans-serif;
+}
+
+.food-card-bg {
+  margin-left: 35%;
+  width: 400px;
+  padding: 15px;
+  border-radius: 15px;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.food-card-bg > img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.food-promotion {
+  position: absolute;
+  font-size: small;
+  top: 30px;
+  left: 30px;
+  color: white;
+  background-color: transparent;
+  padding: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 5px;
+  backdrop-filter: blur(10px);
+}
+
+.food-offer {
+  position: absolute;
+  bottom: 215px;
+  font-size: medium;
+  background-color: #266fef;
+  color: white;
+  padding: 5px;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+
+.food-delivery-time {
+  position: absolute;
+  bottom: 215px;
+  right: 25px;
+  font-size: medium;
+  padding: 5px;
+  background-color: white;
+  border-radius: 5px;
+}
+.food-card-bootm > img {
+  width: 20%;
+  margin-right: 20px;
+}
+
+.food-card-bootm {
+  display: flex;
+  align-items: center;
+}
+
+/*sunrise banner*/
+
+.sunrise-banner {
+  position: relative;
+  margin: 60px auto;
+  width: 50%;
+}
+
+.sunrise-banner > img {
+  width: 100%;
+  border-radius: 15px;
+}
+
+.surise-banner-content {
+  text-align: center;
+  position: absolute;
+  color: white;
+  bottom: 15%;
+  padding: 40px;
+}
+.button-light {
+  padding: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 55px;
+  font-weight: bold;
+}
+
+.sunrise-banner > p {
+  color: white;
+}
+
+/*zomato*/
+.banner {
+  margin: 150px auto;
+  position: relative;
+  text-align: center;
+  color: white;
+  width: 1200px;
+  height: 400px;
+  background-color: red;
+}
+
+.background-image {
+  width: 100%;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+
+.logo {
+  width: 250px;
+}
+
+h1 {
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  font-weight: 1;
+}
+
+.search-bar {
+  display: flex;
+  max-width: 600px;
+  background-color: white;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.location-selector,
+.search-bar input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
+
+.hr-zomato {
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: auto;
+  margin-bottom: auto;
+  height: 25px;
+}
+
+.location-selector select {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.search-bar input {
+  flex: 2;
+}
+
+.location-selector i {
+  color: #d70f64;
+  margin-right: 10px;
+  font-size: 1.2em;
+}
+
+.searchbar-icon {
+  color: gray;
+  margin-top: 20px;
+}
+
+/*LinkedIn Profile*/
+
+.linkedin-profile {
+  background-color: white;
+  margin: 400px auto;
+  width: 420px;
+  position: relative;
+  border-radius: 10px;
+  padding-bottom: 20px;
+}
+
+.background-img {
+  width: 100%;
+  height: 120px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.user-img {
+  width: 30%;
+  border: 5px solid white;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 130px;
+  left: 32%;
+}
+
+.profile-content {
+  text-align: center;
+  margin-top: 90px;
+  margin-left: 20px;
+}
+.profile-content h1 {
+  font-weight: bold;
+}
+.profile-content h3 {
+  margin-top: -20px;
+  margin-bottom: 20px;
+  font-weight: bold;
+  color: gray;
+}
