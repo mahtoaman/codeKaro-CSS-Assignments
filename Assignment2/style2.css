@@ -1,0 +1,28 @@
+.first{
+    width: 320px;
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+    display: flex;
+}
+.second{
+    width: 100px;
+    background-color: green;
+}
+
+.third{
+    background-color: yellow;
+}
+
+hr{
+    height: 2px;
+   color: black;
+}
+
+.search-bar input {
+  border: none;
+  padding: 10px;
+  outline: none;
+  display: flex;
+  align-items: center;
+}
